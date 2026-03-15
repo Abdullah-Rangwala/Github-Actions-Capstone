@@ -18,7 +18,7 @@ jobs:
     uses: ./.github/workflows/reusable-docker.yml
     with:
       image_name: flask-capstone
-      tag: sha-${{ github.sha }}
+      tag: sha-latest
 
     secrets:
       docker_username: ${{ secrets.DOCKER_USERNAME }}
