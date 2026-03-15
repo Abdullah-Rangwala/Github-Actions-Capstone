@@ -2,7 +2,7 @@ name: Reusable Docker Build & Push
 
 on:
   workflow_call:
-
+  
     inputs:
       image_name:
         description: "Docker image name"
